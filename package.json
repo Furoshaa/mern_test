@@ -8,7 +8,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon backend/server.js",
-    "install-all": "npm install && cd frontend && npm install"
+    "prep": "npm install && cd frontend && npm install"
   },
   "dependencies": {
     "dotenv": "^16.4.7",
